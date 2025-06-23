@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/sailsec/CLionProjects/Nautilus/cmake-build-debug",
+	"dir-cur-src" : "/home/sailsec/CLionProjects/Nautilus",
+	"dir-top-bld" : "/home/sailsec/CLionProjects/Nautilus/cmake-build-debug",
+	"dir-top-src" : "/home/sailsec/CLionProjects/Nautilus",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/sailsec/CLionProjects/Nautilus/cmake-build-debug/CMakeFiles/Nautilus.dir"
+}
