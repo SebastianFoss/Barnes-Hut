@@ -64,36 +64,6 @@ build CMakeFiles/Nautilus.dir/main.cpp.o: CXX_COMPILER__Nautilus_scanned_Debug /
   OBJECT_FILE_DIR = CMakeFiles/Nautilus.dir
   dyndep = CMakeFiles/Nautilus.dir/CXX.dd
 
-build CMakeFiles/Nautilus.dir/QuadTree.cpp.o.ddi: CXX_SCAN__Nautilus_Debug /home/sailsec/CLionProjects/Nautilus/QuadTree.cpp || cmake_object_order_depends_target_Nautilus
-  DEP_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o.ddi.i
-
-build CMakeFiles/Nautilus.dir/QuadTree.cpp.o: CXX_COMPILER__Nautilus_scanned_Debug /home/sailsec/CLionProjects/Nautilus/QuadTree.cpp | CMakeFiles/Nautilus.dir/QuadTree.cpp.o.modmap || cmake_object_order_depends_target_Nautilus CMakeFiles/Nautilus.dir/CXX.dd
-  DEP_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/Nautilus.dir/QuadTree.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Nautilus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Nautilus.dir
-  dyndep = CMakeFiles/Nautilus.dir/CXX.dd
-
-build CMakeFiles/Nautilus.dir/Node.cpp.o.ddi: CXX_SCAN__Nautilus_Debug /home/sailsec/CLionProjects/Nautilus/Node.cpp || cmake_object_order_depends_target_Nautilus
-  DEP_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o.ddi.i
-
-build CMakeFiles/Nautilus.dir/Node.cpp.o: CXX_COMPILER__Nautilus_scanned_Debug /home/sailsec/CLionProjects/Nautilus/Node.cpp | CMakeFiles/Nautilus.dir/Node.cpp.o.modmap || cmake_object_order_depends_target_Nautilus CMakeFiles/Nautilus.dir/CXX.dd
-  DEP_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/Nautilus.dir/Node.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Nautilus.dir
-  OBJECT_FILE_DIR = CMakeFiles/Nautilus.dir
-  dyndep = CMakeFiles/Nautilus.dir/CXX.dd
-
 build CMakeFiles/Nautilus.dir/Particle.cpp.o.ddi: CXX_SCAN__Nautilus_Debug /home/sailsec/CLionProjects/Nautilus/Particle.cpp || cmake_object_order_depends_target_Nautilus
   DEP_FILE = CMakeFiles/Nautilus.dir/Particle.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Nautilus.dir/Particle.cpp.o.ddi
@@ -109,7 +79,22 @@ build CMakeFiles/Nautilus.dir/Particle.cpp.o: CXX_COMPILER__Nautilus_scanned_Deb
   OBJECT_FILE_DIR = CMakeFiles/Nautilus.dir
   dyndep = CMakeFiles/Nautilus.dir/CXX.dd
 
-build CMakeFiles/Nautilus.dir/CXX.dd | /home/sailsec/CLionProjects/Nautilus/cmake-build-debug/CMakeFiles/Nautilus.dir/CXXModules.json CMakeFiles/Nautilus.dir/main.cpp.o.modmap CMakeFiles/Nautilus.dir/QuadTree.cpp.o.modmap CMakeFiles/Nautilus.dir/Node.cpp.o.modmap CMakeFiles/Nautilus.dir/Particle.cpp.o.modmap: CXX_DYNDEP__Nautilus_Debug CMakeFiles/Nautilus.dir/main.cpp.o.ddi CMakeFiles/Nautilus.dir/QuadTree.cpp.o.ddi CMakeFiles/Nautilus.dir/Node.cpp.o.ddi CMakeFiles/Nautilus.dir/Particle.cpp.o.ddi | /home/sailsec/CLionProjects/Nautilus/cmake-build-debug/CMakeFiles/Nautilus.dir/CXXDependInfo.json
+build CMakeFiles/Nautilus.dir/Vector3D.cpp.o.ddi: CXX_SCAN__Nautilus_Debug /home/sailsec/CLionProjects/Nautilus/Vector3D.cpp || cmake_object_order_depends_target_Nautilus
+  DEP_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o.ddi.i
+
+build CMakeFiles/Nautilus.dir/Vector3D.cpp.o: CXX_COMPILER__Nautilus_scanned_Debug /home/sailsec/CLionProjects/Nautilus/Vector3D.cpp | CMakeFiles/Nautilus.dir/Vector3D.cpp.o.modmap || cmake_object_order_depends_target_Nautilus CMakeFiles/Nautilus.dir/CXX.dd
+  DEP_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/Nautilus.dir/Vector3D.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Nautilus.dir
+  OBJECT_FILE_DIR = CMakeFiles/Nautilus.dir
+  dyndep = CMakeFiles/Nautilus.dir/CXX.dd
+
+build CMakeFiles/Nautilus.dir/CXX.dd | /home/sailsec/CLionProjects/Nautilus/cmake-build-debug/CMakeFiles/Nautilus.dir/CXXModules.json CMakeFiles/Nautilus.dir/main.cpp.o.modmap CMakeFiles/Nautilus.dir/Particle.cpp.o.modmap CMakeFiles/Nautilus.dir/Vector3D.cpp.o.modmap: CXX_DYNDEP__Nautilus_Debug CMakeFiles/Nautilus.dir/main.cpp.o.ddi CMakeFiles/Nautilus.dir/Particle.cpp.o.ddi CMakeFiles/Nautilus.dir/Vector3D.cpp.o.ddi | /home/sailsec/CLionProjects/Nautilus/cmake-build-debug/CMakeFiles/Nautilus.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -119,7 +104,7 @@ build CMakeFiles/Nautilus.dir/CXX.dd | /home/sailsec/CLionProjects/Nautilus/cmak
 #############################################
 # Link the executable Nautilus
 
-build Nautilus: CXX_EXECUTABLE_LINKER__Nautilus_Debug CMakeFiles/Nautilus.dir/main.cpp.o CMakeFiles/Nautilus.dir/QuadTree.cpp.o CMakeFiles/Nautilus.dir/Node.cpp.o CMakeFiles/Nautilus.dir/Particle.cpp.o
+build Nautilus: CXX_EXECUTABLE_LINKER__Nautilus_Debug CMakeFiles/Nautilus.dir/main.cpp.o CMakeFiles/Nautilus.dir/Particle.cpp.o CMakeFiles/Nautilus.dir/Vector3D.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Nautilus.dir
   POST_BUILD = :

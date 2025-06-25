@@ -4,7 +4,8 @@ project(Nautilus)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Nautilus main.cpp
-        QuadTree.cpp
-        Node.cpp
         Particle.cpp
+        Vector3D.cpp
+        Vector3D.h
+        Particle.h
 )

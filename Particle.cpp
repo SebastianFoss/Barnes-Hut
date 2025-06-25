@@ -2,28 +2,10 @@
 // Created by sailsec on 6/23/25.
 //
 
+#include "Particle.h"
+#include <vector>
+#include "Vector3D.h"
 
-class Particle {
+Particle::Particle(Vector3D position, Vector3D velocity, Vector3D acceleration, double mass) {
 
-
-public:
-
-    Particle(double x, double y, double z, double mass) : x(x), y(y), z(z) {
-        this->mass = mass;
-    }
-
-
-
-    // member getters
-
-    double getX() const { return x; }
-    double getY() const { return y; }
-    double getZ() const { return z; }
-    double getMass() const { return mass; }
-
-private:
-
-    double x, y, z;
-    double mass;
-
-};
+}
