@@ -9,4 +9,6 @@ add_executable(Nautilus main.cpp
         Vector3D.h
         Particle.h
         Box.cpp
+        Node.cpp
+        Node.h
 )
