@@ -53,8 +53,7 @@
 				1,
 				2,
 				5,
-				6,
-				8
+				6
 			]
 		}
 	],
@@ -91,8 +90,7 @@
 				1,
 				2,
 				5,
-				6,
-				8
+				6
 			]
 		},
 		{
@@ -101,8 +99,7 @@
 			[
 				3,
 				4,
-				7,
-				9
+				7
 			]
 		}
 	],
@@ -151,17 +148,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "Node.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "OctreeNode.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "OctreeNode.h",
 			"sourceGroupIndex" : 1
 		}
 	],
