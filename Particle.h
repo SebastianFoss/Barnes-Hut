@@ -17,18 +17,37 @@ private:
 
     // private Vector3D attributes
 
-    Vector3D position;
+    Vector3D position; // current position
     Vector3D velocity;
-    Vector3D acceleration;
-    Vector3D force;
+    Vector3D force; // force accumulated for current time step
+    Vector3D acceleration; // calculated from force
 
     double mass;
 
 
 public:
 
+    // constructor for all properties
     Particle(Vector3D position, Vector3D velocity, Vector3D acceleration, double mass);
 
-    void update();
+    // Overloaded w/ position, mass, others zero
+    Particle(Vector3D position, double mass);
+
+    // delta T, advanced by a time step.
+    void update(double deltaTime);
+    // time step may vary.
+
+    // reset the accumulated force, to zero for next sim step.
+    void resetForce();
+
+    // getters
+    Vector3D getPosition() const;
+    Vector3D getVelocity() const;
+    Vector3D getAcceleration() const;
+    Vector3D getForce() const;
+    double getMass() const;
+
+    // setters later, if needed
+
 
 };

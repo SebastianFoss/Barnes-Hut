@@ -8,4 +8,6 @@ add_executable(Nautilus main.cpp
         Vector3D.cpp
         Vector3D.h
         Particle.h
+        Simulator.cpp
+        Simulator.h
 )

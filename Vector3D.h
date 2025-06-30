@@ -14,29 +14,32 @@ private:
     double y;
     double z;
 
-    public:
+public:
+    Vector3D(); // default
 
-    Vector3D(double x, double y, double z);
-    Vector3D();
+    Vector3D(double x, double y, double z); // parameterized
 
-    Vector3D(const Vector3D& other);
-
-    Vector3D& operator=(const Vector3D& other);
-
-    Vector3D operator+(const Vector3D& other) const;
-    Vector3D operator-(const Vector3D& other) const;
-    Vector3D operator*(double scalar) const;
-    Vector3D operator/(double scalar) const;
-
-    double magnitude() const;
-    double distance(const Vector3D& other) const;
+    Vector3D operator+(const Vector3D &other);
+    Vector3D operator-(const Vector3D& other);
+    Vector3D operator*(double scalar);
+    Vector3D operator/(double scalar);
 
 
-    // is normalize supposed to be a constructor or a method?
-    Vector3D normalize() const;
+    // functional operations
+    double dot(const Vector3D& other) const;
+    double magnitude() const; // length of vector
+    double distance(const Vector3D& other); // distance between two vectors (points)
+    double cross(const Vector3D& other) const;
+
+    Vector3D normalize() const; // returns a unit vector
 
 
-    // double dot(const Vector3D& other) const;
-    // Vector3D cross(const Vector3D& other) const;
+    // getters
+    double getX() const;
+    double getY() const;
+    double getZ() const;
 
+    // copy semantics
+    Vector3D(const Vector3D& other); // copy construct
+    Vector3D& operator=(const Vector3D& other); // copy assignment
 };
