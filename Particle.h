@@ -47,7 +47,10 @@ public:
     Vector3D getForce() const;
     double getMass() const;
 
-    // setters later, if needed
+    void setForce(const Vector3D &newForce);
+
+    // add an additional force
+    void addForce(const Vector3D& force);
 
 
 };
