@@ -19,8 +19,8 @@ public:
 
     Vector3D(double x, double y, double z); // parameterized
 
-    Vector3D operator+(const Vector3D &other);
-    Vector3D operator-(const Vector3D& other);
+    Vector3D operator+(const Vector3D &other) const;
+    Vector3D operator-(const Vector3D& other) const;
     Vector3D operator*(double scalar);
     Vector3D operator/(double scalar);
 

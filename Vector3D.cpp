@@ -28,10 +28,10 @@ Vector3D::Vector3D() : x(0.0), y(0.0), z(0.0) {} // default initialize to zero
 
 
 // operators
-Vector3D Vector3D::operator+(const Vector3D& other) {
+Vector3D Vector3D::operator+(const Vector3D& other) const {
     return Vector3D(x + other.x, y + other.y, z + other.z);
 };
-Vector3D Vector3D::operator-(const Vector3D& other) {
+Vector3D Vector3D::operator-(const Vector3D& other) const {
     return Vector3D(x - other.x, y - other.y, z - other.z);
 };
 Vector3D Vector3D::operator*(double scalar) {
