@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/Nautilus.dir/BarnesHutTree.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

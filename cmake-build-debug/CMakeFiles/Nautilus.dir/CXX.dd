@@ -1,0 +1,11 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Nautilus.dir/main.cpp.o: dyndep
+
+build CMakeFiles/Nautilus.dir/Vector3.cpp.o: dyndep
+
+build CMakeFiles/Nautilus.dir/OctreeNode.cpp.o: dyndep
+
+build CMakeFiles/Nautilus.dir/Particle.cpp.o: dyndep
+
+build CMakeFiles/Nautilus.dir/BarnesHutTree.cpp.o: dyndep
+
